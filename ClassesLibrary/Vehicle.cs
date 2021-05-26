@@ -33,6 +33,7 @@ namespace ClassesLibrary
         {
             get { return _weight; }
             set { _weight = value; }
+        }
 
             //ctors - Make a default ctor and FQCTOR
         public Vehicle(string make, string model, int year, float weight)
@@ -61,5 +62,5 @@ namespace ClassesLibrary
                 Weight);
         }
     }
-    }
+    
 }

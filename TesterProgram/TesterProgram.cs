@@ -40,6 +40,20 @@ namespace TesterProgram
             Vehicle v2 = new Vehicle("Jeep", "Cherokee", 1998, 4500);
 
             Console.WriteLine(v2);
+
+            Console.WriteLine("\n\n------Loggin Info------\n\n");
+
+            Loggin l1 = new Loggin();
+            l1.UserName = "User1";
+            l1.PassWord = "Pa55word";
+            
+
+
+            Console.WriteLine(l1);
+
+            Loggin l2 = new Loggin("User2", "password");
+
+            Console.WriteLine(l2);
         }
     }
 }
