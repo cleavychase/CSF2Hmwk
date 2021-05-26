@@ -25,6 +25,21 @@ namespace TesterProgram
             Student s2 = new Student("John", "Batman", "0000", 2.5f);
 
             Console.WriteLine(s2);
+
+            Console.WriteLine("\n\n------Vehicle Info------\n\n");
+
+            Vehicle v1 = new Vehicle();
+            v1.Make = "Ford";
+            v1.Model = "Focus";
+            v1.Year = 2006;
+            v1.Weight = 2935;
+
+
+            Console.WriteLine(v1);
+
+            Vehicle v2 = new Vehicle("Jeep", "Cherokee", 1998, 4500);
+
+            Console.WriteLine(v2);
         }
     }
 }
