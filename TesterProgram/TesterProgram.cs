@@ -123,6 +123,27 @@ namespace TesterProgram
             Book bk2 = new Book("Cat in the Hat", "Dr. Suess", 12);
 
             Console.WriteLine(bk2);
+
+
+            Console.WriteLine("\n\n------Library------\n\n");
+
+            Library lb1 = new Library();
+            List<Book> books = new List<Book>() { bk1, bk2 };
+            lb1.LibraryName = "Trails West";
+            lb1.StreetAddress = "100 Main";
+            lb1.City = "Independence";
+            lb1.State = "MO";
+            lb1.Zip = "64050";
+
+            Console.WriteLine(lb1);
+
+            //Library lb2 = new Library();
+            //lb2
+            
+
+            //Console.WriteLine(bk2);
+
+
         }
     }
 }
