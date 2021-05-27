@@ -90,6 +90,23 @@ namespace TesterProgram
             Customer cm2 = new Customer("444", "Clyde", "Barrow", c2);
 
             Console.WriteLine(cm2);
+
+            Console.WriteLine("\n\n------Credit Card Account------\n\n");
+
+            CreditCardAccount cc1 = new CreditCardAccount();
+            cc1.AccountNumber = 1234;
+            cc1.CustomerInfo = cm1;
+            cc1.IsPastDue = true;
+            cc1.AnnualInterestRate = 3.4m;
+
+
+
+
+            Console.WriteLine(cc1);
+
+            CreditCardAccount cc2 = new CreditCardAccount(666, cm2, true, 2.8m);
+
+            Console.WriteLine(cc2);
         }
     }
 }
