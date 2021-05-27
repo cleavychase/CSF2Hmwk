@@ -91,6 +91,7 @@ namespace TesterProgram
 
             Console.WriteLine(cm2);
 
+
             Console.WriteLine("\n\n------Credit Card Account------\n\n");
 
             CreditCardAccount cc1 = new CreditCardAccount();
@@ -107,6 +108,21 @@ namespace TesterProgram
             CreditCardAccount cc2 = new CreditCardAccount(666, cm2, true, 2.8m);
 
             Console.WriteLine(cc2);
+
+
+            Console.WriteLine("\n\n------Book------\n\n");
+
+            Book bk1 = new Book();
+            bk1.Title = "Breaking Dawn";
+            bk1.Author = "Stephanie Meyers";
+            bk1.NbrOfPages = 300;
+
+
+            Console.WriteLine(bk1);
+
+            Book bk2 = new Book("Cat in the Hat", "Dr. Suess", 12);
+
+            Console.WriteLine(bk2);
         }
     }
 }
