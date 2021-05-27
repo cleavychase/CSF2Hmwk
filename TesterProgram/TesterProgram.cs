@@ -72,7 +72,24 @@ namespace TesterProgram
 
             ContactInfo c2 = new ContactInfo("1212 Walnut Ave", "KC", "MO", "64111", "816.888.8888", "fake@madeup.com");
 
-            Console.WriteLine(l2);
+            Console.WriteLine(c2);
+
+            Console.WriteLine("\n\n------Customer------\n\n");
+
+            Customer cm1 = new Customer();
+            cm1.CustomerId = "1234";
+            cm1.FirstName = "Bonnie";
+            cm1.LastName = "Parker";
+            cm1.ContactInfo = c1;
+            
+
+
+
+            Console.WriteLine(cm1);
+
+            Customer cm2 = new Customer("444", "Clyde", "Barrow", c2);
+
+            Console.WriteLine(cm2);
         }
     }
 }

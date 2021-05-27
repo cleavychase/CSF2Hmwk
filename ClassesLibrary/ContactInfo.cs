@@ -74,6 +74,7 @@ namespace ClassesLibrary
                 "Email: {5}",
                 StreetAddress,
                 City,
+                State,
                 Zip,
                 Phone,
                 EMail
