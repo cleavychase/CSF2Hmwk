@@ -54,6 +54,25 @@ namespace TesterProgram
             Loggin l2 = new Loggin("User2", "password");
 
             Console.WriteLine(l2);
+
+
+            Console.WriteLine("\n\n------Contact Info------\n\n");
+
+            ContactInfo c1 = new ContactInfo();
+            c1.StreetAddress = "100 Main St";
+            c1.City = "Independence";
+            c1.State = "MO";
+            c1.Zip = "64050";
+            c1.Phone = "816.718.7420";
+            c1.EMail = "email@internet.com";
+
+
+
+            Console.WriteLine(c1);
+
+            ContactInfo c2 = new ContactInfo("1212 Walnut Ave", "KC", "MO", "64111", "816.888.8888", "fake@madeup.com");
+
+            Console.WriteLine(l2);
         }
     }
 }

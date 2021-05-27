@@ -42,7 +42,7 @@ namespace ClassesLibrary
         {
             //return base.ToString();
             return string.Format("Username: {0}\n" +
-                "Model: {1}\n",
+                "Password: {1}\n",
                 UserName,
                 PassWord
                 );
