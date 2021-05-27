@@ -139,9 +139,23 @@ namespace TesterProgram
 
             //Library lb2 = new Library();
             //lb2
-            
+
 
             //Console.WriteLine(bk2);
+
+
+            Console.WriteLine("\n\n------Song------\n\n");
+
+            Song ss1 = new Song();
+            ss1.Artist = "Cher";
+            ss1.Title = "Turn Back Time";
+            ss1.Genre = "Oldies";
+
+            Console.WriteLine(ss1);
+
+            Song ss2 = new Song("Juice", "Lizzo","Pop");
+
+            Console.WriteLine(ss2);
 
 
         }
