@@ -175,6 +175,22 @@ namespace TesterProgram
 
             Console.WriteLine(ar2);
 
+            Console.WriteLine("\n\n------Motor Home Info------\n\n");
+
+            MotorHome mh1 = new MotorHome();
+            mh1.Make = "Winnebago";
+            mh1.Model = "Big Ol Boy";
+            mh1.Year = 2000;
+            mh1.Weight = 10000;
+            mh1.NumberOfBeds = 3;
+
+
+            Console.WriteLine(mh1);
+
+            MotorHome mh2 = new MotorHome("AirStream", "Silver Bullet", 1960, 4500, 1);
+
+            Console.WriteLine(mh2);
+
         }
     }
 }
