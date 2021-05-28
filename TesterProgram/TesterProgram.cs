@@ -159,6 +159,22 @@ namespace TesterProgram
             Console.WriteLine(ss2);
 
 
+            Console.WriteLine("\n\n------Artist------\n\n");
+
+            Artist ar1 = new Artist();
+            Song[] track = { ss1, ss2 };
+            ar1.Track = track;
+            ar1.Title = "Juice";
+            ar1.Genre = "Pop";
+
+            Console.WriteLine(ar1);
+
+            Artist ar2 = new Artist(track, "Title", "Genre");
+
+
+
+            Console.WriteLine(ar2);
+
         }
     }
 }
