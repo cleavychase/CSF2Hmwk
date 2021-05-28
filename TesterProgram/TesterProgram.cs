@@ -129,6 +129,7 @@ namespace TesterProgram
 
             Library lb1 = new Library();
             List<Book> books = new List<Book>() { bk1, bk2 };
+            lb1.Books = books;
             lb1.LibraryName = "Trails West";
             lb1.StreetAddress = "100 Main";
             lb1.City = "Independence";
@@ -137,11 +138,11 @@ namespace TesterProgram
 
             Console.WriteLine(lb1);
 
-            //Library lb2 = new Library();
-            //lb2
+            Library lb2 = new Library(books, "Library", "Place", "City", "State", "1234");
 
 
-            //Console.WriteLine(bk2);
+
+            Console.WriteLine(lb2);
 
 
             Console.WriteLine("\n\n------Song------\n\n");

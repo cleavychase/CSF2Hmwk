@@ -51,7 +51,7 @@ namespace ClassesLibrary
                 "City: {3}\n" +
                 "State: {4}\n" +
                 "Zip: {5}\n",
-                Books, LibraryName, StreetAddress, City, State,Zip);
+                booksNeeded, LibraryName, StreetAddress, City, State, Zip);
         }
     }
 }
